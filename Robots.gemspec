@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
 
   spec.summary = 'Read Robots.txt files'
   spec.description = 'Read Robots.txt files'
-  spec.required_ruby_version = '>= 3.2.0'
 
   #spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
   #spec.metadata['homepage_uri'] = spec.homepage
