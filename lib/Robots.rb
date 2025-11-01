@@ -9,7 +9,6 @@ module Robots
 
     def initialize(url)
       @url = url
-      puts "kkk"
       uri = URI(File.join(@url, 'robots.txt'))
       @response = Net::HTTP.get_response(uri).body.split("\n").map(&:to_s)
     end
